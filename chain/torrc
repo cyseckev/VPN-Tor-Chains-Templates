@@ -1,0 +1,18 @@
+# Hardened Tor configuration
+
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 1
+
+# Avoid DNS leaks
+DNSPort 5353
+AutomapHostsOnResolve 1
+
+# Security
+ClientOnly 1
+UseEntryGuards 1
+SafeLogging 1
+
+# Exit policy – no exits, only client
+ExitNodes {us},{nl}
+StrictNodes 1

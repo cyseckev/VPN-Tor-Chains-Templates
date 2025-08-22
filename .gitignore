@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# Cache
+__pycache__/
+*.cache
+
+# Config backups
+*.old
+*.bak
+*.swp
